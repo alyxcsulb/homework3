@@ -1,4 +1,4 @@
-# option 1
+# asterisks triangle nested loops
 
 # triangle a
 print("Triangle A:")
@@ -6,7 +6,7 @@ rows = 10
 for i in range(0, rows):
     for j in range(0, i+1):
         print("*", end=" ")
-    print("\r")
+    print(" ")
 
 # triangle b
 print("\nTriangle B:")
@@ -24,7 +24,7 @@ for i in range(rows, 0, -1):
         print(" ", end=" ")
     for j in range(i):
         print("*", end=" ")
-    print()
+    print(" ")
 
 
 # triangle d
@@ -37,6 +37,6 @@ for i in range(0, rows):
     k = k - 2
     for j in range(0, i+1):
         print("* ", end="")
-    print("")
+    print(" ")
 
 
